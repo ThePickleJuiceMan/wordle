@@ -36,6 +36,6 @@ public class WordleLib
     }
     public string GetWordleByNumber(int num)
     {
-        return WordlistKey[num - 1];
+        return WordlistKey[num];
     }
 }
